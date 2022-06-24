@@ -6,16 +6,16 @@ public class BuyuktenKucuge {
         int x,y,z;
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("1. sayıyı giriniz: ");
+        System.out.print("1. sayÃ½yÃ½ giriniz: ");
         x= scan.nextInt();
 
-        System.out.print("2. sayıyı giriniz: ");
+        System.out.print("2. sayÃ½yÃ½ giriniz: ");
         y= scan.nextInt();
 
-        System.out.print("3. sayıyı giriniz: ");
+        System.out.print("3. sayÃ½yÃ½ giriniz: ");
         z= scan.nextInt();
 
-        System.out.print("Sıralama şu şekildedir: ");
+        System.out.print("SÃ½ralama Å£u Å£ekildedir: ");
 
         if (x<y && y<z) {
             System.out.print("x<y<z");
